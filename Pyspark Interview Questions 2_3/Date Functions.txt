@@ -1,0 +1,42 @@
+PYSPARK DATE FUNCTION
+----------------------------------------------------------
+current_date()	Returns the current date as a DateType object. This function does not take any arguments and simply returns the current date based on the system clock where the PySpark application is running.
+
+date_format()	It is used to format a date or timestamp column in a DataFrame to a specified date or time format pattern.
+
+to_date()	It converts a string column representing a date or timestamp into a date type column in a DataFrame
+
+add_months()	It is used to add or subtract a specified number of months to a date or timestamp column in a DataFrame. It takes two arguments: the column representing the date or timestamp, and the number of months to add or subtract.
+
+
+date_add() is used to add a specified number of days to a date column
+
+date_sub() is used to subtract a specified number of days from a date column
+
+datediff(end, start)	It is used to calculate the difference in days between two date columns in a DataFrame. It takes two arguments: the two date columns to calculate the difference between.
+
+months_between(end, start)	It is used to calculate the difference in months between two date or timestamp columns in a DataFrame. It takes two arguments: the two date or timestamp columns to calculate the difference between them.
+If both inputs share the same day of the month or are both the last day of their respective months, a whole number is returned. Otherwise, the difference is computed under the assumption of 31 days per month.
+
+months_between(end, start, roundOff)	The result is rounded off to 8 digits when `roundOff` is set to true, it is not rounded otherwise.
+next_day(column, dayOfWeek)	It is used to find the first occurrence of a specified day of the week that comes after a given date. It takes two arguments, the date column representing the reference date, and the day of the week specified as a string (e.g., ‘Monday’, ‘Tuesday’, etc.).
+
+year(column)	Returns the year from a given date or timestamp.
+
+quarter(column)	Returns the quarter as an integer from a given date or timestamp.
+
+month(column)	Returns the month as an integer from a given date or timestamp
+
+dayofweek(column)	Extract the day of the week from a date or timestamp column in a DataFrame. Monday is represented by 1, Tuesday by 2, and so on until Sunday, which is represented by 7.
+
+dayofmonth(column)	Extracts the day of the month from a given date or timestamp.
+
+dayofyear(column)	Extracts the day of the year from a given date or timestamp.
+
+weekofyear(column)	Extract the week number from a date or timestamp column in a DataFrame.
+
+last_day(column)	Return the last day of the month for a given date or timestamp column.The result is a date column where each date corresponds to the last day of the month for the original dates in the specified column.
+
+from_unixtime(column)	Convert a Unix timestamp (represented as the number of seconds since the Unix epoch) to a timestamp column
+
+unix_timestamp()	It is used to convert a string representing a date or timestamp to a Unix timestamp (i.e., the number of seconds since the Unix epoch). It takes two arguments: the column containing the string representation of the date or timestamp, and the format string specifying the format of the input string.
