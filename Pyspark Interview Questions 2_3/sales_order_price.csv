@@ -1,4 +1,4 @@
-﻿Order ID,Quantity Ordered,Price Each
+﻿Order_id,qty,price_each
 141234,1,700
 141235,1,14.95
 141236,2,11.99
