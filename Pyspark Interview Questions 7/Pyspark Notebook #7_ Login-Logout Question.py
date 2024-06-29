@@ -57,6 +57,29 @@ df_emp_ph.createOrReplaceTempView("df_emp_ph_tbl")
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC Display the following data for each employee- 
+# MAGIC
+# MAGIC employeeid, default_number, total_entry, total_login, total_logout, last_login, last_logout, first_login, first_logout,
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC Order of SQL Execution:
+# MAGIC
+# MAGIC FROM, JOIN, WHERE, GROUP BY, HAVING, SELECT, DISTINCT, ORDER BY, and finally, LIMIT/OFFSET
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC Certain words in sql questions and what they convey -
+# MAGIC
+# MAGIC total, sum, no of, how many times -> count() or sum()
+# MAGIC
+# MAGIC first, last most, least, highest, lowest -> max() or min()
+
+# COMMAND ----------
+
 # MAGIC %sql
 # MAGIC select 
 # MAGIC       e.employee_id,
@@ -93,21 +116,16 @@ df_result.display()
 
 # COMMAND ----------
 
-
-
-# COMMAND ----------
-
-
-
-# COMMAND ----------
-
-
+# MAGIC %md
+# MAGIC DataFrame Solutions
+# MAGIC ------
 
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC DataFrame Solutions
-# MAGIC ------
+# MAGIC Display the following data for each employee- 
+# MAGIC
+# MAGIC employeeid, default_number, total_entry, total_login, total_logout, last_login, last_logout, first_login, first_logout,
 
 # COMMAND ----------
 
