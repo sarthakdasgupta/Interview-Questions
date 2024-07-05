@@ -5,11 +5,6 @@ from pyspark.sql.window import Window
 
 # COMMAND ----------
 
-# Pyspark Interview Question #7 | From given data find out total_entry,total_login, total_logout, latest_login,latest_logout | Paypal
-# https://medium.com/@poojatripathi0697/pyspark-interview-question-3-4261072cc8ab
-
-# COMMAND ----------
-
 # MAGIC %md
 # MAGIC Write pyspark code to display following data from below tables
 # MAGIC -------
@@ -51,6 +46,14 @@ df_emp_ph.createOrReplaceTempView("df_emp_ph_tbl")
 
 # COMMAND ----------
 
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC SQL Solution
 # MAGIC ---------
@@ -76,11 +79,14 @@ df_emp_ph.createOrReplaceTempView("df_emp_ph_tbl")
 # MAGIC
 # MAGIC total, sum, no of, how many times -> count() or sum()
 # MAGIC
-# MAGIC first, last most, least, highest, lowest -> max() or min()
+# MAGIC first, last, most, least, highest, lowest -> max() or min()
 
 # COMMAND ----------
 
 # MAGIC %sql
+# MAGIC -- employeeid, default_number, total_entry, total_login, total_logout, last_login, last_logout, first_login, first_logout,
+# MAGIC
+# MAGIC -- FROM, JOIN, WHERE, GROUP BY, HAVING, SELECT, DISTINCT, ORDER BY, and finally, LIMIT/OFFSET
 # MAGIC select 
 # MAGIC       e.employee_id,
 # MAGIC       e.phone,
