@@ -1,0 +1,26 @@
+employee_id,full_name,job,department,business_unit,gender,age,salary,country,city
+E02006,Harper Dominguez,Director,Finance,Corporate,Female,42,10000,United States,Austin
+E02009,Miles Chang,Analyst II,Finance,Corporate,Male,30,6000,China,Chengdu
+E02002,Kai Le,Controls Engineer,Finance,Manufacturing,Male,30,4000,United States,Columbus
+E02032,Ruby Alexander,Vice President,Finance,Research & Development,Female,50,10000,United States,Phoenix
+E02046,Ruby Kaur,Test Engineer,Finance,Research & Development,Female,26,4000,China,Beijing
+E02011,Jameson Thomas,Manager,Finance,Specialty Products,Male,50,8000,United States,Miami
+E02013,Bella Wu,Sr. Analyst,Finance,Specialty Products,Female,32,6000,United States,Phoenix
+E02020,Jordan Kumar,Service Desk Analyst,IT,Specialty Products,Male,24,3000,United States,Seattle
+E02007,Ezra Vu,Network Administrator,IT,Manufacturing,Male,29,5500,United States,Phoenix
+E02004,Cameron Lo,Network Administrator,IT,Research & Development,Male,34,5500,China,Shanghai
+E02008,Jade Hu,Sr. Analyst,IT,Specialty Products,Female,35,8000,China,Chongqing
+E02005,Harper Castillo,IT Systems Architect,IT,Corporate,Female,39,8500,United States,Seattle
+E02023,Lillian Lewis,Technical Architect,IT,Research & Development,Female,39,8000,United States,Phoenix
+E02014,Jose Wong,Director,IT,Manufacturing,Male,39,10000,China,Chongqing
+E02015,Lucas Richardson,Manager,Marketing,Corporate,Male,45,7800,United States,Miami
+E02016,Jacob Moore,Sr. Manager,Marketing,Corporate,Male,42,8000,United States,Phoenix
+E02010,Gianna Holmes,System Administrator ,Marketing,Manufacturing,Female,28,5000,United States,Seattle
+E02039,Silas Ross,Analyst,Marketing,Research & Development,Male,24,5000,United States,Austin
+E02042,Ella Martinez,Sr. Analyst,Marketing,Research & Development,Female,28,6500,United States,Chicago
+E02021,Sophia Gutierrez,Manager,Marketing,Specialty Products,Female,38,7800,United States,Austin
+E02003,Robert Patel,Analyst,Sales,Corporate,Male,32,4500,United States,Chicago
+E02012,Jameson Pena,Systems Analyst,Sales,Manufacturing,Male,32,4500,United States,Miami
+E02024,Serenity Cao,Account Representative,Sales,Manufacturing,Female,26,3500,China,Shanghai
+E02043,Gianna Jones,Manager,Sales,Research & Development,Female,48,7000,United States,Columbus
+E02019,Ivy Chau,Analyst,Sales,Specialty Products,Female,37,4500,China,Chongqing
