@@ -1,0 +1,44 @@
+﻿order_date,region,manager,sales_man,item,units,unit_price
+2018-01-23,Central,Hermann,Shelli,Home Theater,50,500
+2018-02-09,Central,Hermann,Luis,Television,36,1198
+2018-02-26,Central,Timothy,David,Cell Phone,27,225
+2018-04-18,Central,Martha,Steven,Television,75,1198
+2018-05-05,Central,Hermann,Luis,Television,90,1198
+2018-06-25,Central,Hermann,Sigal,Television,90,1198
+2018-09-01,Central,Douglas,John,Desk,2,125
+2018-10-05,Central,Hermann,Sigal,Home Theater,28,500
+2018-11-25,Central,Hermann,Shelli,Video Games,96,59
+2018-12-12,Central,Douglas,John,Television,67,1198
+2019-01-15,Central,Timothy,David,Home Theater,46,500
+2019-02-01,Central,Douglas,John,Home Theater,87,500
+2019-03-24,Central,Hermann,Luis,Video Games,50,59
+2019-04-10,Central,Martha,Steven,Television,66,1198
+2019-05-14,Central,Timothy,David,Television,53,1198
+2019-05-31,Central,Timothy,David,Home Theater,80,500
+2019-06-17,Central,Hermann,Shelli,Desk,5,125
+2019-07-21,Central,Hermann,Sigal,Video Games,55,59
+2019-08-07,Central,Hermann,Shelli,Video Games,42,59
+2019-09-10,Central,Timothy,David,Television,7,1198
+2019-10-31,Central,Martha,Steven,Television,14,1198
+2019-11-17,Central,Hermann,Luis,Home Theater,11,500
+2019-12-04,Central,Hermann,Luis,Home Theater,94,500
+2019-12-21,Central,Martha,Steven,Home Theater,28,500
+2018-01-06,East,Martha,Alexander,Television,95,1198
+2018-04-01,East,Martha,Alexander,Home Theater,60,500
+2018-06-08,East,Martha,Alexander,Home Theater,60,500
+2018-07-12,East,Martha,Diana,Home Theater,29,500
+2018-07-29,East,Douglas,Karen,Home Theater,81,500
+2018-08-15,East,Martha,Alexander,Television,35,1198
+2018-09-18,East,Martha,Alexander,Video Games,16,59
+2018-10-22,East,Martha,Alexander,Cell Phone,64,225
+2018-11-08,East,Douglas,Karen,Cell Phone,15,225
+2018-12-29,East,Douglas,Karen,Video Games,74,59
+2019-02-18,East,Martha,Alexander,Home Theater,4,500
+2019-04-27,East,Martha,Diana,Cell Phone,96,225
+2019-07-04,East,Martha,Alexander,Video Games,62,59
+2018-03-15,West,Timothy,Stephen,Television,56,1198
+2018-05-22,West,Douglas,Michael,Television,32,1198
+2019-03-07,West,Timothy,Stephen,Home Theater,7,500
+2019-08-24,West,Timothy,Stephen,Desk,3,125
+2019-09-27,West,Timothy,Stephen,Cell Phone,76,225
+2019-10-14,West,Douglas,Michael,Home Theater,57,500
